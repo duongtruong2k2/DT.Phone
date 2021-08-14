@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+.clear{
+    clear: both;
+}
+.row{
+    margin: 0px 70px !important;
+    padding: 0px 30px !important;
+}
+.col{
+    float: left;
+    width: 50% !important;
+}
+
+/* common */
+/* begin:main */
+/* end:main */
+/* begin:header */
+
+.header{
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    z-index:1;
+}
+.nav{
+    display: inline-block;
+}
+.nav li{
+    display: inline-block;
+    line-height: 50px;
+    
+}
+.nav li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    padding: 0px 24px;
+    color:#ccc;
+    
+}
+.nav li a:hover{
+    opacity: 0.6;
+}
+
+/* icon */
+
+.Social{
+    float: right;
+    line-height: 50px; 
+    margin: 0px 17px;
+    cursor: pointer;
+    color: #ccc;
+}
+.fb-icon,.twitter-icon{
+    padding: 21px;
+}
+.fb-icon:hover{
+    opacity: 0.6;
+}
+.twitter-icon:hover{
+    opacity: 0.6;
+}
+.pin-icon:hover{
+    opacity: 0.6;
+}
+/* end:header */
+/* begin:slider */
+.slider{
+    margin-top: 50px;
+    text-align: center;
+}
+.slider-img{
+    width: 300px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.slider-text{
+  margin-top: 30px;
+    
+}
+.slider-heading{
+   font-weight: 400;
+   letter-spacing: 2px;
+   text-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+   font-size: 40px;
+}
+
+.slider-document{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 200;
+}
+/* end:slider */
+/* begin:friend */
+.friend-many{
+    background-color: #ccc;
+    height: 296px;
+    padding: 50px 0px;
+    
+}
+.friend{
+    text-align: center;
+}
+.friend-heading{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 24px;
+}
+.friend-document{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+/* icon */
+.friend-icon{
+    text-align: center;
+}
+.ti-youtube , .ti-google , .ti-yahoo , .ti-github{
+    padding: 40px;
+    color:#000;
+}
+/* end:friend */
+
+/* begin:content */
+
+
+/* begin:content1*/
+.content-1 {
+    margin: 77px 0px 50px ;
+    
+}
+.content-1-sub{
+    padding: 50px 5px 0px ;
+}
+.content-1  .content-1-heading{
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 24px;
+}
+.content-1  .content-1-document{
+       font-size: 18px;
+      margin-top: 30px;
+      text-align: justify;
+}
+.content-1  .content-1-img{
+    width: 399px;
+    height: 268px;
+    background-size: cover;
+    float: right;
+}
+/* end:content1*/
+/* begin:content2 */
+
+.content-2-img{
+    height: 374px;
+    width: 404px;
+    background-size: cover;
+   margin-bottom: 100px;
+}
+.content-2-sub{
+    float: right;
+    padding: 0px 44px;
+}
+.content-2-heading{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 24px;
+}
+.content-2-document{
+    margin-top: 30px;;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+.content-2-sub .demo{
+    color:#fff;
+    background-color: #2ca8ff;
+    border: 1px none ;
+    padding: 8px;
+    margin-top: 15px;
+}
+.content-2-sub .demo:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+/* end:content2 */
+/* begin:content3 */
+.container-3 .heading-content-3{
+    text-align: center;
+    font-weight: 200;
+    line-height: 24px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.container-3 .container-sub-text{
+    width: 33.333%;
+    float: right;
+    padding: 0xp 30px;
+    text-align: center;
+}
+.ti-bar-chart , .ti-bell , .ti-view-list-alt{
+    font-size: 63px;
+    color: #00bbff;
+}
+.text-heading{
+    margin: 32px 0px 27px;
+    font-size: 18px;
+    
+}
+.text-document{
+    font-size: 16px;
+    line-height: 22px;
+    color: #777;
+    text-align: center;
+}
+
+/* end:content3 */
+/* begin:conent4 */
+.content-4{
+    margin-top: 70px;
+    text-align: center;
+}
+.content-4-heading{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 24px;
+}
+.content-4-img{
+    margin-top: 41px ;
+    border-radius: 50%;
+}
+.content-4-name{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+    color: #9a9a9a;
+    cursor: pointer;
+}
+.content-4-document{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 46px;
+    margin-bottom: 50px;
+}
+/* end:conent4 */
+/* end:content */
+/* begin:banner */
+.banner{
+    
+    padding-top: 50%;
+    background: url(https://technext.github.io/awesome-landing-page/assets/img/template/bg3.jpg) top center /cover no-repeat;
+    position: relative;
+}
+
+.banner .banner-text{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    margin-left: 370px;
+    margin-bottom: 361px;
+}
+.banner-heading{
+    font-size: 40px;
+    font-weight: 300;
+}
+.banner-document{
+   font-size: 18px;
+   margin-top: 35px;
+}
+.banner-download{
+    margin-top: 25px;
+    padding: 14px 80px;
+    border: 1px none;
+    color: #000;
+    background-color: #b2e5f8;
+    border-radius: 7%;
+    cursor: pointer;
+    opacity: 1.6;
+}
+/* begin:banner */
+/* footer */
+.footer{
+    height: 70px;
+}
+.footer-sub{
+    line-height: 70px;
+    margin-left: 239px;
+    font-size: 14px;
+}
+.footer-sub li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 24px;
+    color: #000;
+    
+}
+.footer-sub li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.footer-time{
+    text-decoration: none;
+    color: #2ca8ff;
+}
